@@ -1,0 +1,15 @@
+public class zdania {
+    public static void main(String[] args) {
+        String komunikat = "Dziœ jest ciep³o i œwieci s³oñce";
+        String komunikat2 = "Niebo jest troche pochmurne ale deszcz nie pada";
+        String komunikat3 = "Noc jest ciep³a. Mo¿na spaæ przy otwartym oknie";
+        System.out.println(komunikat);
+        System.out.println(komunikat2);
+        System.out.println(komunikat3);
+        int dlugosc = komunikat.length()+ komunikat2.length()+komunikat3.length();
+        System.out.println("Suma znaków trzech poprzednich zdañ wynosi: " + dlugosc);
+    }
+}
+
+
+Napisz program, który wyœwietli trzy ró¿ne zdania opisuj¹ce aktualn¹ pogodê. W czwartej linii wypisz sumaryczn¹ d³ugoœæ trzech poprzednich zdañ.
